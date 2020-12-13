@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+p {
+    color: white;
+    padding-left: 30px;
+    line-height: 1;
+}
+
+li {
+  color: white;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+    color: #292929;
+    margin: 0;
+}
+
+}
+div#headercontainer {
+    width: 1349px;
+
+}
+div#header img {
+  padding-left: 20px;
+    position: relative;
+    margin:10px ;
+}
+div#header h1{
+  color: white;
+}
+div#header {
+  padding-left: 20px;
+    background: #191919;
+}
+
+
+div#topnav {
+  padding-top: 10px;
+  width: 1349px;
+  height: 35px;
+  background: #FFFF00;
+}
+div#topnav a {
+  border-right-style: solid;
+  border-width: thick;
+  padding: 18px;
+  margin: 0;
+  color: #292929;
+  font-weight: bold;
+}
+div#Searchbar {
+    position: right;
+    right: 0;
+    top: 23px;
+    padding: 10px;
+    color: #006;
+}
+
+div#wrapper {
+  float: left;
+  width: 820px;
+}
+div#content img {
+    float: left;
+    height: 500px;
+    width: 820px;
+}
+div#content p {
+  margin-top: 20px;
+  text-align: left;
+  width: 800px;
+}
+
+div#rspcontainer{
+  padding: 10px;
+  float: right;
+  width: 500px;
+
+}
+div#RightSidePanel {
+    background: #191919;
+}
+div#RightSidePanel h1 {
+    color: white;
+}
+div#RightSidePanel p {
+  color: white;
+}
+
+.com-content{
+  min-height: 10px;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact-section{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #fff;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.contact-info i{
+
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.contact-form{
+  padding-left: 50px;
+  max-width: 400px;
+  margin-right: 50px;
+}
+
+
+
+.contact-form h2{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 250px;
+  max-height: 350px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #FFFF00;
+  color: #fff;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+  background: #292929;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+}
+
+/*css for alert messages*/
+
+.alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}
+
+div#Footer a {
+font-family: Arial;
+  color: white;
+}
+  div#Footer ul {
+    text-align: center;
+    color: white;
+}
+div#Footer h1{
+  margin-left: 40px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+div#Footer {
+  background: #191919;
+    clear: both;
+    width: 100%;
+}
