@@ -20,8 +20,8 @@
 
         <div id="topnav">
           <a onclick=" " href="Home(GlennPatrickSantos).php" target="_parent">HOME</a>
-          <a onclick=" " href="Contact info.html" target="_parent">CONTACT INFO</a>
-          <a onclick=" " href="About.html" target="_parent">ABOUT</a>
+          <a onclick=" " href="Contact info.php" target="_parent">CONTACT INFO</a>
+          <a onclick=" " href="About.php" target="_parent">ABOUT</a>
 
         <input type="search" placeholder=" Search..." id="site-search" name="Search"
                aria-label="Search through site content">
