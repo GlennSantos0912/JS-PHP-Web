@@ -8,7 +8,7 @@
   <title>Glenn Patrick Santos</title>
    <link rel="stylesheet" href="Myweb(GlennPatrickSantos).css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-
+<script src="index.js"></script>
 </head>
 
 <body>
